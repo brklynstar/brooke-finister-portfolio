@@ -1,118 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hi. I'm Brooke. </title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-  </head>
-
-  <body>
-    <!--navbar-->
-    <header>
-      <div class="header-logo navbar-expand-lg bg-primary navbar-primary">
-        <a href="#" class="navbar-brand">Myspace<br>a place for friends</a>
-
-        <nav class="navbar ">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          </button>
-
-          <div class="container position-absolute bottom-0 start-0">
-            <div class="collapse navbar-collapse bg-info navbar-info " id="navmenu">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a href="#home" class="nav-link text-white">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#browse" class="nav-link text-white">Browse</a>
-                </li>
-                <li class="nav-item">
-                  <a href="search" class="nav-link text-white">Search</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#blog" class="nav-link text-white">Blog</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#music" class="nav-link text-white">Music</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#favorites" class="nav-link text-white">Favorites</a>
-                </li>
-              </ul>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+        <nav> 
+            <div class="top">
+              <div class="left row-expand-lg bg-primary row-primary">
+                <a href="#">
+                  <img class="logo logo-fallback" src=pngkey.com-myspace-logo-png-6116955.png width= "" height="50" alt="myspace logo">
+                </a>
+              </div>      
+              <div class="center">
+                <form action="search" role="search">
+                  <label for="q">Search Users:</label>
+                  <div class="search-wrapper">
+                    <input id="q" type="text" name="q">
+                  </div>
+                  <button type="submit">Search</button>
+                </form>
+              </div>
+              <div class ="right">
+                <a href="#">Help</a>
+                |  
+                <a href="#">LogIn</a>
+                | 
+                <a href="#">SignUp</a>
+              </div>
+            </div> 
+            <ul class="links">
+              <li class="nav-item">
+                <a href="#home" class="nav-link text-white">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#browse" class="nav-link text-white">Browse</a>
+              </li>
+              <li class="nav-item">
+                <a href="search" class="nav-link text-white">Search</a>
+              </li>
+              <li class="nav-item">
+                <a href="#blog" class="nav-link text-white">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a href="#music" class="nav-link text-white">Music</a>
+              </li>
+              <li class="nav-item">
+                <a href="#favorites" class="nav-link text-white">Favorites</a>
+              </li>
+            </ul>
+          </nav>
+          <main>
+            <div class="row profile">
+                <div class="col w-40 left">
+                  <span itemprop="name">
+                    <h1>Brooke Finister</h1>
+            <div class="about">
+              <div class="profile-pic">
+                <img class="profile-image" src="Brooke-F.png" alt="Brooke Finister Photo" height="150">
             </div>
+            <div class="details">
+              <p>Aspiring Software Engineer</p>
+              <p>Studying Applied Computer Science @ Dominican University of California</p>
+            <p> Last Active:</p>
+            <br>
+            <p>1 hour ago</p>
+            </div>
+            <div class="mood">
+              <p>
+                <b>Mood:</b>
+                  Chillin'
+              </p>
+              <p>
+                <b>View my:
+                  <a href="https://medium.com/@brookeafinister">Blog</a>
+                </b>
+              </p>
+            </div>
+
+            <!-- Contact Section -->
+            <div class="contact">
+              <div class="heading">
+                <h4> Contacting Brooke Finister</h4>
+              </div>
+
+            <div class="inner">
+              <div class="f-row">
+                <div class="f-col">
+                  <a href="#">
+                    <img src="https://static.spacehey.net/icons/add.png" class="icon">
+                    Add to Friends
+                  </a>
+                </div>
+                <div class="f-col">
+                  <a href="#">
+                    <img src="https://static.spacehey.net/icons/award_star_add.png">
+                    Add to Favorites
+                  </a>
+                </div>
+            </div> 
+
+            <div class="f-row">
+              <div class="f-col">
+                <a href="#">
+                  <img src="https://static.spacehey.net/icons/comment.png">
+                  Send Message
+                </a>
+              </div>
+              <div class="f-col">
+                <a href="#">
+                  <img src="https://static.spacehey.net/icons/arrow_right.png">
+                  Forward to Friend
+                </a>
+              </div>
+          </div> 
+
+          <div class="f-row">
+            <div class="f-col">
+              <a href="#">
+                <img src="https://static.spacehey.net/icons/email.png">
+                Instant Message
+              </a>
+            </div>
+            <div class="f-col">
+              <a href="#">
+                <img src="https://static.spacehey.net/icons/exclamation.png">
+                Block User
+              </a>
+            </div>
+        </div> 
+
+        <div class="f-row">
+          <div class="f-col">
+            <a href="#">
+              <img src="https://static.spacehey.net/icons/group_add.png">
+              Add to Group
+            </a>
           </div>
+          <div class="f-col">
+            <a href="#">
+              <img src="https://static.spacehey.net/icons/flag_red.png">
+              Report User
+            </a>
+          </div>
+        </div>
       </div>
-      </nav>
-    </header>
-    <!---->
-    </header>
+    </div> 
 
-    <section id="name">
-      <h1>Brooke Finister</h1>
-      <img src="Brooke-F.png" alt="Picture of Brooke Finister">
-      <p> Applied Computer Science Student @ Dominican University of California </p>
-      <p> Mood: chillin' </p>
-      <p> View my <a href="Blog">Blog</a></p>
-    </section>
+    <!-- Myspace Url Section -->
+    <div class="url-info">
+      <p>
+        <b> Myspace URL:</b>
+      </p>
+      <p>https://myspace.com/brookef </p>
+    </div>
+    <div>
 
-    <section id="contact">
-      <h1>Contacting Brooke Finister</h1>
+    <!-- Brookes Interests -->
+    <div class="table-section">
+      <div class="heading">
 
-    </section>
-
-    <section id="myurl">
-      <h1> Brooke Finister's URL: </h1>
-      <p><a href="google.sites"></a></p>
-    </section>
-
-    <section id="interests">
-      <h1>Brooke Finister's Interests</h1>
-      <ul>
-        <li>General</li>
-        <p> I love to learn! Coding, Graphic Design, Astronomy, Off-Roading </p>
-        <li>Music</li>
-        <p> Dave Matthews Band is G.O.A.T! 90's everything! Bob Marley and Hendrix are classics.</p>
-        <li>Movies</li>
-        <p>Love me some sci-fi! </p>
-        <li>Television</li>The 100 is top of my list</p>
-        <li>Books</li>Young Adult and Self-help
-        <li>Heroes</li>
-        <p>Jesus</p>
-      </ul>
-    </section>
-
-    <section id="links">
-      <h1>Brooke Finister's Links</h1>
-      <ul>
-        <li>Linkedin</li><a href="https://www.linkedin.com/in/brooke-finister/">@brooke-finister</a>
-        <li>Github</li><a href="https://github.com/brklynstar">@brklynstar</a>
-      </ul>
-    </section>
-
-    <section id="blogs">
-      <h2>Brooke Finister's Latest Blog Entries <a href="https://medium.com/@brookeafinister">[View Blog]</a></h2>
-    </section>
-
-    <section>
-      <h1>Brooke Finister's Blurbs</h1>
-      <h2>About Me</h2>
-      <p>Applied Computer Science Student @ Dominican University of California</p>
-      <h2>Who I'd like to meet:</h2>
-      <p>Ultimatley Jesus, lol</p>
-    </section>
-
-    <section>
-      <h1>Brooke Finister's Friend Space</h1>
-      <img src="Screen Shot 2022-10-24 at 12.22.12 PM.png" alt="Picture of Brooke Finister">
-      <h2>Brooke Finister has # friends.</h2>
-    </section>
-
-  </body>
-
-</html>
+        <h4> Brooke's Interests</h4>
+      </div>
+      <div class="inner">
+        <table class="details-table" cellspacing="3" cellpadding="3">
+          <tbody>
+            <tr>
+              <td>
+                <p> General</p>
+              </td>
+              <td>
+                <p></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>    
+          
+               
+          </main>
+    
+       
